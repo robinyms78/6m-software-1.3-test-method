@@ -18,7 +18,7 @@ let booksObj = {};
 function convert(keyArr, valueArr){
     
     // Add code here
-    for (var i = 0; i < keyArr.length; i++) {
+    for (let i = 0; i < keyArr.length; i++) {
         booksObj[keyArr[i]] = valueArr[i];
     }
 
