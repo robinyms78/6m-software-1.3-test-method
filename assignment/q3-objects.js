@@ -20,7 +20,8 @@ function convert(keyArr, valueArr){
     // Add code here
     for (let i = 0; i < keyArr.length; i++) {
         booksObj[keyArr[i]] = valueArr[i];
-    }
+        
+    };
 
     return booksObj;
 
